@@ -1,3 +1,5 @@
+package models;
+
 import Interfaces.Transporte;
 import enums.TipoTransporte;
 

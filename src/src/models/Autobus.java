@@ -1,3 +1,5 @@
+package models;
+
 import Interfaces.Transporte;
 import enums.TipoTransporte;
 
@@ -8,12 +10,12 @@ public class Autobus implements Transporte {
 
     @Override
     public void arrancar() {
-        System.out.println("Soy un Autobus y estoy arrancando");
+        System.out.println("Soy un models.Autobus y estoy arrancando");
     }
 
     @Override
     public void detener() {
-        System.out.println("Soy un Autobus y estoy detenido");
+        System.out.println("Soy un models.Autobus y estoy detenido");
     }
 
     @Override

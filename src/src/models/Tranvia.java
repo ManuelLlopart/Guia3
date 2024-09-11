@@ -1,3 +1,5 @@
+package models;
+
 import Interfaces.Transporte;
 import enums.TipoTransporte;
 
@@ -14,12 +16,12 @@ public class Tranvia implements Transporte {
 
     @Override
     public void arrancar() {
-        System.out.println("Soy un Tranvia y estoy arrancando");
+        System.out.println("Soy un models.Tranvia y estoy arrancando");
     }
 
     @Override
     public void detener() {
-        System.out.println("Soy un Tranvia y estoy detenido");
+        System.out.println("Soy un models.Tranvia y estoy detenido");
     }
 
     @Override

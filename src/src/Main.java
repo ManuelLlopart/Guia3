@@ -1,3 +1,7 @@
+import models.Autobus;
+import models.Bicicleta;
+import models.Tranvia;
+
 public class Main {
     public static void main(String[] args) {
         Autobus bus = new Autobus(51, 28);
@@ -12,6 +16,8 @@ public class Main {
         bici.detener();
         System.out.println("Bus tiene " + bus.obtenerCapacidad() + " de capacidad, bici tiene "
                 + bici.obtenerCapacidad() + " de capacidad y el tren tiene " + tren.obtenerCapacidad() + " de capacidad");
+
+
 
 
     }
